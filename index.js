@@ -15,3 +15,4 @@ var btn = form.equal;
 btn.addEventListener('dblclick', function(){
     form.disp.value = "";
 });
+
