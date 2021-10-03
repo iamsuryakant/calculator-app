@@ -18,6 +18,10 @@ btn.addEventListener('dblclick', function(){
 
 document.addEventListener('keypress', (event) => {
   var name = event.key;
-  val(name);
-  
+  if(name.match('[*.0-9+/-]'))
+	val(name);
+  if(name == "=")
+  {
+	  calc();
+  }
 }, false);
