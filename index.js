@@ -16,3 +16,8 @@ btn.addEventListener('dblclick', function(){
     form.disp.value = "";
 });
 
+document.addEventListener('keypress', (event) => {
+  var name = event.key;
+  val(name);
+  
+}, false);
